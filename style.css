@@ -8,16 +8,21 @@ body{
     justify-content: space-between;
     margin: 0%;
     padding: 0%;
+    
+    
 }
 
 .header .left-side img{
-    padding: 0%;
-    margin: 0%;
-    border-radius: 20%;
+    padding: 1%;
+    margin-left: 2%;
+    margin-top: 2%;
+    width: 25%;
+    
 }
 .header .right-side{
     margin: 1%;
     padding: 0%;
+
     
 }
 .header .right-side a{
@@ -44,7 +49,7 @@ body{
     border-radius: 50%;
     margin-top: 20%;
     margin-right: 0%;
-    border-color: orangered;
+    border-color: orangered ;
     border-style: solid;
     
 }
@@ -63,9 +68,11 @@ body{
 }
 
 .hero-section .left-hero-section button{
-    background-color: rgb(95, 1, 1);
-    color: aliceblue;
-    border: solid whitesmoke;
+    background-color: rgba(45, 35, 83, 0.062);
+    color: rgb(8, 1, 39);
+    border: 5px;
+    border-style: solid;
+    border-color: rgb(3, 240, 228);
     border-radius: 80px;
     margin-left: 15%;
     margin-top: 50px;
@@ -74,11 +81,16 @@ body{
     font-size: 20px;
     font-family: monospace;
     
+    
+}
+
+.hero-section .left-hero-section a{
+    color: aliceblue;
 }
 
 .hero-section .left-hero-section button:hover{
-    background-color: antiquewhite;
-    color: rgb(43, 0, 22);
+    background-color: rgb(143, 83, 4);
+    color: rgb(0, 0, 0);
     border-color: black;
     border-style: solid;
 }
@@ -89,13 +101,79 @@ body{
     display: flex;
     gap: 75px;
     justify-content: left;
-    margin-right: 17%%;
+    margin-right: 17%;
     margin-left:10%;
     
     
 }
 
+
+
 .hero-section .left-hero-section .logos img{
     border-radius: 100%;
 
+}
+
+
+.about-me{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 50px;
+}
+.about-me .about-me-image img{
+    width:70% ;
+    margin: 10%;
+    border-radius: 20%;
+    border-color: gold;
+    border-style: solid ;
+    width: 400px;
+    height: 400px;
+}
+
+.about-me .about-me-text h1{
+    font-family: system-ui;
+    font-size:90px;
+    font-style: oblique;
+    color:gold;
+    text-align: center;
+}
+
+.about-me .about-me-text p{
+    color: gold;
+    font-family: system-ui;
+    font-size: 25px;
+    font-style: oblique;
+    text-align: center;
+
+}
+
+.contact-me{
+    text-align: center;
+    border: 15px;
+    border-radius: 15%;
+    border-color: darkblue;
+    border-style: solid;
+    background-color: black;
+    padding: 15px;
+    margin: 10%;
+    width: 650px;
+    height: 300px;
+    margin-left: 30%;
+}
+
+.contact-me h2{
+    text-align: center;
+    font-family: monospace;
+    font-size: 45px;
+    color: floralwhite;
+}
+.contact-me p{
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 25px;
+    color: cyan;
+}
+.contact-me:last-child{
+    text-align: start;
 }
